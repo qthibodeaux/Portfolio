@@ -17,7 +17,7 @@ function Contact () {
             <h6>Phone: 979-221-6149</h6>
             <a href="https://www.linkedin.com/in/quintus-thibodeaux-4372751b0/" target="_blank" rel="noopener noreferrer">Linkedin</a>
             <a href="https://github.com/qthibodeaux" target="_blank" rel="noopener noreferrer">Github</a>
-            <form method="get" action="QuintusResume.docx" className="d-flex flex-column align-self-center mb-10">
+            <form method="get" action="QuintusThibodeauxResume92020.pdf" className="d-flex flex-column align-self-center mb-10">
                 <div>
                     <Button type="submit" className="btn btn-secondary">Resume</Button>
                 </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ListGroup from 'react-bootstrap/ListGroup';
-import projects from "./info";
+import { projects } from "./info";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -16,10 +16,10 @@ function PItem (props) {
     }
     
     return (
-        <ListGroup.Item className="py-4 text-left" style={{"border":"none"}}>
+        <ListGroup.Item className="py-4 text-left" >
             <Container>
                 <Row>
-                    <Col className="d-flex flex-column py-2">
+                    <Col lg className="d-flex flex-column py-2">
                         <h2>{props.element.name}</h2>
                         <h4>{props.element.headline}</h4>
                         <p>{props.element.caption}</p>
@@ -28,8 +28,8 @@ function PItem (props) {
                             <Button variant="secondary" href={props.element.site} className="px-2" style={buttonStyle}>Site</Button>
                         </div>
                     </Col>
-                    <Col className="d-flex">
-                        <Image src={props.element.gif} rounded />
+                    <Col lg className="d-flex">
+                        <Image src={props.element.gif} fluid/>
                     </Col>
                 </Row>
             </Container>
@@ -68,8 +68,12 @@ function PList () {
       }
 
     return (
-        <div className="d-flex flex-column"> 
-            <DropdownButton id="dropdown-basic-button" title={dropdownName} variant="secondary">
+        <div className="d-flex flex-column py-4"> 
+        
+            <div className="pt-2 pb-4 justify-content-center">
+                <h1 style={{"text-decoration":"underline"}}><strong>Projects</strong></h1>
+            </div>
+            <DropdownButton id="dropdown-basic-button" title={dropdownName} variant="secondary" className="pb-4">
                 {menus.map((element) => {
                     return <Dropdown.Item onClick={(e) => jump(element.name, element.value)}>{element.name}</Dropdown.Item>
                 })}

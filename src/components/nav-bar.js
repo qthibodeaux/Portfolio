@@ -8,9 +8,9 @@ function NavBar () {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto">
-            <Nav.Link href="#projectanchor"><strong>Projects</strong></Nav.Link>
+            <Nav.Link href="#tabanchor"><strong>Tabs</strong></Nav.Link>
             <Nav.Link href="#contactanchor"><strong>Contact</strong></Nav.Link>
-            <Nav.Link href="QuintusResume.docx" target="_blank"><strong>Resume</strong></Nav.Link>
+            <Nav.Link href="QuintusThibodeauxResume92020.pdf" target="_blank"><strong>Resume</strong></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
