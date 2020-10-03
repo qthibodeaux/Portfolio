@@ -6,9 +6,6 @@ import ListGroup from 'react-bootstrap/ListGroup';
 function BlogPost (props) {
     return (
         <div className="pb-4">
-            <div className="pt-2 pb-4 justify-content-center">
-                <h1 style={{"text-decoration":"underline"}}><strong>Blog</strong></h1>
-            </div>
             <ListGroup.Item>
                 <Card border="secondary" className="text-left">
                 <Card.Header>{props.element.title}</Card.Header>
@@ -30,11 +27,16 @@ function BlogPost (props) {
 
 function Blog () {
     return (
-       <ListGroup>
-            {blogs.map((element, index) => {
-                return <BlogPost element={element} index={index} />
-            })}
-        </ListGroup>
+        <div>
+            <div className="pt-2 pb-4 justify-content-center">
+                    <h1 style={{"text-decoration":"underline"}}><strong>Blog</strong></h1>
+            </div>
+        <ListGroup>
+                {blogs.map((element, index) => {
+                    return <BlogPost element={element} index={index} />
+                })}
+            </ListGroup>
+        </div>
     )
 }
 
