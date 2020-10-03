@@ -1,12 +1,13 @@
 import React from 'react';
 import { updates } from "./info";
-import ListGroup from 'react-bootstrap/ListGroup';
+import Table from 'react-bootstrap/Table';
 
-function UpdateItem (props) {
+function TableUpdate (props) {
     return (
-        <ListGroup.Item>
-            {props.element.content}
-        </ListGroup.Item>
+        <tr>
+            <td>{props.element.date}</td>
+            <td>{props.element.content}</td>
+        </tr>
     )
 }
 
@@ -16,11 +17,13 @@ function Updates () {
             <div className="pt-2 pb-4 justify-content-center">
                 <h1 style={{"text-decoration":"underline"}}><strong>Site Updates</strong></h1>
             </div>
-            <ListGroup>
-                {updates.map((element, Index) => {
-                    return <UpdateItem element={element} Index={Index} />
-                })}
-            </ListGroup>
+            <Table striped bordered hover>
+                <tbody>
+                    {updates.map((element, Index) => {
+                        return <TableUpdate element={element} Index={Index} />
+                    })} 
+                </tbody>
+            </Table>
         </div>
     )
 }

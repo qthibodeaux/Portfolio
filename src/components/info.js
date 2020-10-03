@@ -1,6 +1,17 @@
 
 const projects = [    
     {
+        "name": "ReactFullStackSkeleton",
+        "headline": "Full Stack Template",
+        "caption": "",
+        "hasGithub": true,
+        "githubrepo": "https://github.com/qthibodeaux/ReactFullStackSkeleton",
+        "hassite": "hidden",
+        "site": "A Full Stack template that uses React, ExpressJS, Knexjs, postgres, and other technologies. I use this as a jumping point to start personal full stack projects.",
+        "gif": "ReactSkele.gif",
+        "tags": {"html5/css": true, "react":true, "expressjs":true, "postgres":true, "axios": true},
+    },
+    {
         "name": "Sidelined",
         "headline": "React Webpage",
         "caption": "Sidelined is a Power Rangers themed card game. The genius of the card game is the reduction of luck to empower players skill of deduction. Designed to take advantage of React-Redux's strengths of state management. The front end process handle various states including various list for cards. Back end state management adjust calculations on the fly. Presenting real time information on the cards that are in play to, which helps the player wager on making efficient or uncanny decisions.",
@@ -48,6 +59,17 @@ const projects = [
 
 const blogs = [
     {
+        title: "Spooky SZN",
+        image: "skelecrop.png",
+        subtitle: "Still at it!",
+        p1: "This week’s update came a little later than I planned. I am currently juggling multiple projects that I am trying to finish. I don’t have an issue juggling the projects and I have done well with time management. I just have to remember that programming takes much longer than I think it is going to take. Even when I have it planned out, have my resources readily available, and reduce scope of the project, it will rarely come together as fast as I hope it is.",
+        p2: "On that note, when I am comfortable and in my zone, I can crank out some code! I am getting pretty efficient in my comfort areas. I am happy with my progress in working with Bootstrap, React, Express, and knex. It is really encouraging and more than a sign that I can do it. But I know I can be great at this coding thing.",
+        p3: "On the opposite side of that, I have to remember to push myself. Don’t just settle for doing the things I am good at. But to practice those new skills and become comfortable with those. It took some tooling to get comfortable with Bootstrap. I know my blindspots and will continue to improve. I am really grateful for the circle I have. My mentors continue to push me but remain great resources of knowledge when I am in a rut. ",
+        p4: "Wrapping this up, I am excited for the projects I have coming up. The few solo projects are coming to a close. One is a major project that would’ve taken me WEEKS to finish earlier this year. I cranked out most of the code last weekend before the week’s task beat me up and delayed my progress. Soon I will also start collaborating with some of my bootcamp friends. Those guys are awesome and it’s fun to communicate and watch us grow together. ",
+        p5: "",
+        date: "October 1, 2020",
+    },
+    {
         title: "Be Someone",
         image: "besomeonecrop.jpg",
         subtitle: "",
@@ -61,7 +83,8 @@ const blogs = [
 ]
 
 const updates = [
-    {content: "24 September 2020 Update: Addded tabs to main component. Three tabs for Projects, Blog, and Site Update. Added React component for each tab."},
+    {date: "1 Octobner 2020 ", content: "Update: Added ReactFullStackSkeleton Projec, updated Blog, and changed the updates tab."},
+    {date: "24 September 2020 ", content: "Update: Addded tabs to main component. Three tabs for Projects, Blog, and Site Update. Added React component for each tab."},
 ]
 
 export { blogs, projects, updates }

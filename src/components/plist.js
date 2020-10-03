@@ -50,6 +50,7 @@ function PList () {
         { name: 'Postgresql', value: '5' },
         { name: 'React', value: '6' },
         { name: 'Redux', value: '7' },
+        { name: 'axios', value: '8'},
       ];
 
       const jump = (name, value) => {
@@ -63,6 +64,7 @@ function PList () {
               case '5': { setDisplay(projects.filter((word) => {return word.tags.postgres === true})); break; }
               case '6': { setDisplay(projects.filter((word) => {return word.tags.react === true})); break; }
               case '7': { setDisplay(projects.filter((word) => {return word.tags.redux === true})); break; }
+              case '8': { setDisplay(projects.filter((word) => {return word.tags.axios === true})); break; }
               default: { setDisplay(projects) }
           }
       }
