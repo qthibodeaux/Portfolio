@@ -1,13 +1,13 @@
 
 const projects = [    
     {
-        "name": "ReactFullStackSkeleton",
+        "name": "React Full Stack Skeleton",
         "headline": "Full Stack Template",
-        "caption": "",
+        "caption": "A Full Stack template that uses React, ExpressJS, Knexjs, postgres, and other technologies. I use this as a jumping point to start personal full stack projects.",
         "hasGithub": true,
         "githubrepo": "https://github.com/qthibodeaux/ReactFullStackSkeleton",
         "hassite": "hidden",
-        "site": "A Full Stack template that uses React, ExpressJS, Knexjs, postgres, and other technologies. I use this as a jumping point to start personal full stack projects.",
+        "site": "",
         "gif": "ReactSkele.gif",
         "tags": {"html5/css": true, "react":true, "expressjs":true, "postgres":true, "axios": true},
     },
