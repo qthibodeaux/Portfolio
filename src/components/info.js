@@ -83,7 +83,7 @@ const blogs = [
 ]
 
 const updates = [
-    {date: "1 Octobner 2020 ", content: "Update: Added ReactFullStackSkeleton Projec, updated Blog, and changed the updates tab."},
+    {date: "1 October 2020 ", content: "Update: Added ReactFullStackSkeleton Projec, updated Blog, and changed the updates tab."},
     {date: "24 September 2020 ", content: "Update: Addded tabs to main component. Three tabs for Projects, Blog, and Site Update. Added React component for each tab."},
 ]
 
