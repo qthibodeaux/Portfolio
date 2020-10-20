@@ -60,7 +60,7 @@ const projects = [
 const blogs = [
     {
         title: "ComponentLibraryConfusion!!!!!!!!!",
-        image: "componentcrop.jpgg",
+        image: "componentcrop.jpg",
         subtitle: "Eeny, meeny, miny, moe",
         p1: "The blog is really late. Work, life, and projects are really taking up alot of my time. Finding that balance is tricky right now. I am very specific with how I do my work. And finding the right component library for me has been more of a challenge than I initially thought. It is truly a Goldilocks situation.",
         p2: "All of the component libraries that I have been using are all very powerful and have varying degrees of ease-of-use. I find some I like more than others. Some more aesthetically pleasing than others. I have yet to find that right one yet. Some have the components I want but require more work to align. Others may be a breeze to use but are missing key components or features that I am trying to use. It is part of the growing pains of learning but incredibly frustrating when I have a project that I could wrap up if this one piece would just come together.",
