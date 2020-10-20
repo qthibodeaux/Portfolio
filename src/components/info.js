@@ -59,6 +59,16 @@ const projects = [
 
 const blogs = [
     {
+        title: "ComponentLibraryConfusion!!!!!!!!!",
+        image: "componentcrop.jpgg",
+        subtitle: "Eeny, meeny, miny, moe",
+        p1: "The blog is really late. Work, life, and projects are really taking up alot of my time. Finding that balance is tricky right now. I am very specific with how I do my work. And finding the right component library for me has been more of a challenge than I initially thought. It is truly a Goldilocks situation.",
+        p2: "All of the component libraries that I have been using are all very powerful and have varying degrees of ease-of-use. I find some I like more than others. Some more aesthetically pleasing than others. I have yet to find that right one yet. Some have the components I want but require more work to align. Others may be a breeze to use but are missing key components or features that I am trying to use. It is part of the growing pains of learning but incredibly frustrating when I have a project that I could wrap up if this one piece would just come together.",
+        p3: "Besides the frontend component libraries, I have been using backend tools much more. I am REALLY comfortable with Express. I can get it set up and doing what I want it to do pretty efficiently now. Getting pretty craft with sql, joins, and selects and many of the tools. I am not doing anything incredibly complex right now, but creating a large database and getting REST requests to function as desired makes me happy. Especially given my current front end frustrations. Lol I like the sound of that.",
+        p4: "I have added studying to my list of duties. Brushing up on technical interview questions. My first one, I thought I was prepared for🙃. But the game is different from practice. I gotta get better. So I have been brushing up on React, Express, and ‘basic’ knowledge. So knowing why the code works the way it does or the different inputs for Regular Expression or correct React hook usage will definitely make me a much better programmer in the long run. Well that’s all for now. Hope I can get this Text App up soon. Fingers crossed on this new library.",
+        p5: "",
+        date: "October 19, 2020",
+    },    {
         title: "Spooky SZN",
         image: "skelecrop.png",
         subtitle: "Still at it!",
@@ -83,6 +93,7 @@ const blogs = [
 ]
 
 const updates = [
+    {date: "19 Octobner 2020 ", content: "Update: Added New Blog Post."},
     {date: "1 Octobner 2020 ", content: "Update: Added ReactFullStackSkeleton Projec, updated Blog, and changed the updates tab."},
     {date: "24 September 2020 ", content: "Update: Addded tabs to main component. Three tabs for Projects, Blog, and Site Update. Added React component for each tab."},
 ]
